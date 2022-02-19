@@ -1,0 +1,9 @@
+body{
+    font-family: 'Open Sans' ,sans-serif;
+    background-color: #000000;
+}
+#container{
+    widows: 1000px;
+    height: 550px;
+    background-image: url(./image.jpg);
+}
