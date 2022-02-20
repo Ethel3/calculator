@@ -11,7 +11,7 @@ body{
 #calculator{
     width: 320px;
     height: 520px;
-    background-color: azure;
+    background-color: whitesmoke;
     margin: 0 auto;
     top: 20px;
     position: relative;
@@ -20,9 +20,6 @@ body{
 }
 #result{
     height: 120px;
-}
-#keyboard{
-    height: 408px;
 }
 #history{
     text-align: right;
@@ -34,6 +31,9 @@ body{
     }
     #output{
         text-align: right;
+        height: 60px;
+        margin: 10px 20px;
+        font-size: 30px;
 
     }
     #keyboard{
