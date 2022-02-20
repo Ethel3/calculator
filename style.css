@@ -57,3 +57,26 @@ body{
     .operator:active, .number:active{
         font-size: 13px;
     }
+    .operator:focus, .number:focus, .empty:focus{
+        outline: 0;
+    }
+    button:nth-child(4){
+        font-size: 20px;
+        background-color: #20b2aa;
+    }
+    button:nth-child(4){
+        font-size: 20px;
+        background-color: #20b2aa;
+    }
+    button:nth-child(4){
+        font-size: 20px;
+        background-color: #20b2aa;
+    }
+    button:nth-child(4){
+        font-size: 20px;
+        background-color: #20b2aa;
+    }
+    button:nth-child(4){
+        font-size: 20px;
+        background-color: #20b2aa;
+    }
