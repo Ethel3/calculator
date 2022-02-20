@@ -11,7 +11,7 @@ body{
 #calculator{
     width: 320px;
     height: 520px;
-    background-color: whitesmoke;
+    background-color: aquamarine;
     margin: 0 auto;
     top: 20px;
     position: relative;
@@ -47,4 +47,13 @@ body{
         border-width: 0;
         font-weight: bold;
         font-size: 15px;
+    }
+    .number, .empty{
+        background-color: aquamarine;
+    }
+    .number, .operator{
+        cursor: pointer;
+    }
+    .operator:active, .number:active{
+        font-size: 13px;
     }
