@@ -4,10 +4,13 @@ function getHistory(){
 function printHistory(num){
    document.getElementById("history-value").innerText=num;
 }
-function printOutput(num){
-   document.getElementById("output-value").innerText=num;
+function getoutput(){
+    return document.getElementById("output-value").innerText;
 }
-function getOutput(){
-    document.getElementById("output-value").innerText;
+function printOutput(num){
+    document.getElementById("output-value").innerText=FormattedNumber(num);
+}
+function getFormttedNumber(num){
+   
 }
 printOutput("9999");
