@@ -53,10 +53,11 @@ for (let i =0;i<operator.length;i++){
                history=history.substr(0,history.length-1);
             }
          }
-         if(output!="" || history!=""){
-            output=output==""?output:reverseNumberFormatted(output);
-         history= history+output;
+         if(output !="" || history!=""){
+            output=output=="" ? output : reverseNumberFormatted(output);
+            history += output;
          if(this.id=="="){
+            alert(history)
             var result=eval(history);
             printOutput(result);
             printHistory("");
@@ -72,7 +73,7 @@ for (let i =0;i<operator.length;i++){
 }
 
 var number = document.getElementsByClassName("number");
-for (let i =0; i<operator.length; i++){
+for (let i =0; i< operator.length; i++){
    number[i].addEventListener('click',function(){
       var output=reverseNumberFormatted(getOutput());
       if(output != NaN){ //if output is a number
