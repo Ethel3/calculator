@@ -19,7 +19,7 @@ body{
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 #result{
-    height: 121px;
+    height: 130px;
 }
 #history{
     text-align: right;
@@ -31,9 +31,9 @@ body{
     }
     #output{
         text-align: right;
-        height: 60px;
+        height: 65px;
         margin: 10px 20px;
-        font-size: 30px;
+        font-size: 25px;
     }
     #keyboard{
         height: 400px;
