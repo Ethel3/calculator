@@ -55,7 +55,7 @@ body{
         cursor: pointer;
     }
     .operator:active, .number:active{
-        font-size: 13px;
+        font-size: 14px;
     }
     .operator:focus, .number:focus, .empty:focus{
         outline: 0;
